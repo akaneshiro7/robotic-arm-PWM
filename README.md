@@ -3,8 +3,12 @@
 ## Description
 This project demonstrates how to use Pulse Width Modulation (PWM) to control a robotic arm using the DE1SoC and FPGA utilizing Intel Quartus Prime. The robotic arm simulates an assembly line by moving bottles from position 1 to position 2. The user can use push buttons and switches on the DE1SoC board to manually control individual motors on the robotic arm, save positions, and initiate automated movement.
 An IEEE Paper for this project can be found [here](Robotic-Arm-PWM.pdf)
+
 ### Schematic of Completed Circuit
 ![](https://github.com/akaneshiro7/robotic-arm-PWM/blob/master/final.png)
+
+### In Action
+![](https://github.com/akaneshiro7/robotic-arm-PWM/blob/master/robot_arm.gif)
 
 ## Features
 - Control of the robotic arm's base, bicep, elbow, wrist, and grip through the switches and push buttons on the DE1SoC board.
